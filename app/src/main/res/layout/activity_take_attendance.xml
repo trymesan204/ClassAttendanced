@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    android:orientation="vertical"
+    tools:context=".TakeAttendance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:id="@+id/show_date"
+            android:textSize="16sp"
+            android:layout_weight="19"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_all"
+            android:text="@string/all"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:onClick="onClickCheckBox"/>
+
+    </LinearLayout>
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/show_date"
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonTheme2"
+        android:onClick="onClickSave"
+        android:id="@+id/save"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/> -->
+
+   <!-- <ListView
+        android:id="@+id/take_attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header" /> -->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view_1"
+        android:layout_below="@id/header"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_button"
+        android:layout_width="wrap_content"
+        android:src="@drawable/tick"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickSave"
+        android:layout_gravity="end|bottom" />
+
+
+</RelativeLayout>

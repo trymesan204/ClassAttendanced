@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">ClassAttendance</string>
+    <string name="add_class">Add New Class </string>
+    <string name="attendance">Class Attendance</string>
+    <string name="today_class">Today\'s Classes</string>
+
+    <string name="class_name">Name of Class</string>
+    <string name="class_year">Year</string>
+    <string name="class_day">Day of Class</string>
+    <string name="number_students">Number of Students</string>
+    <string name="class_time">Time of Class</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="save">Save</string>
+
+    <string name="view_classes">View Classes</string>
+    <string name="enter_names">Enter Names</string>
+
+
+    <string name="subject_name">Subject Name</string>
+    <string name="working_days">Working Days</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="check_status">Check Status</string>
+    <string name="attendance_history">View Attendance History</string>
+    <string name="number_lectures">Lectures Taken</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+
+    <string name="add_students">Add Students</string>
+    <string name="remove_students">Remove Students</string>
+    <string name="add_day_time">Add Routine</string>
+
+
+    <string name="student_name">Name</string>
+    <string name="student_roll">Roll No.</string>
+    <string name="add_next">Add Next</string>
+    <string name="done">Done</string>
+
+    <string name="today_report">Today\'s Report</string>
+
+    <string name="present">Total Present</string>
+    <string name="absent">Total Absent</string>
+
+    <array name="days_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </array>
+
+    <string name="add_classes">Add Classes</string>
+    <string name="show_sheet">Show Sheet</string>
+
+    <string name="edit_attendance">Edit Attendance</string>
+    <string name="download_csv">Download CSV</string>
+    <string name="all">All</string>
+</resources>

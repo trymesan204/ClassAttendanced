@@ -1,0 +1,4 @@
+#Wed May 15 22:26:09 NPT 2019
+base.0=/home/shawn/AndroidStudioProjects/ClassAttendance/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

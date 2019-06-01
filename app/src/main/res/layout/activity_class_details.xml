@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:orientation="vertical"
+    tools:context=".ClassDetails">
+
+    <TextView
+        android:id="@+id/class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorText"
+        android:textAllCaps="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/class_year"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/class_year"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/subject_name"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/subject_name"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/number_lectures"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+        <TextView
+            android:id="@+id/number_lectures"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/number_students"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+        <TextView
+            android:id="@+id/number_students"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+    </LinearLayout>
+
+    <!--    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/class_day"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText"
+                style="@style/TextLayout"/>
+
+            <TextView
+                android:text="@string/class_time"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:gravity="left"
+                android:textColor="@color/colorText"
+                style="@style/TextLayout"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/class_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:dividerHeight="0dp"
+                android:layout_weight="1"
+                android:divider="@android:color/transparent"
+                android:layout_gravity="center" />
+
+            <ListView
+                android:id="@+id/class_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:divider="@android:color/transparent"/>
+
+        </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/check_status"
+            style="@style/ButtonTheme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_status"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/take_attendance"
+            style="@style/ButtonTheme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_attendance"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attendance_history"
+            android:onClick="onClickAttendanceHistory"
+            style="@style/ButtonTheme1"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

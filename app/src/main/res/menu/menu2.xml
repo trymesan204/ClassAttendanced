@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_students"
+        android:title="@string/add_students"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/remove_students"
+        android:title="@string/remove_students"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/upload_csv"
+        android:title="Upload CSV"
+        app:showAsAction="withText" />
+
+</menu>

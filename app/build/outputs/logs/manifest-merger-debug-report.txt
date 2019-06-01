@@ -1,0 +1,221 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:17:1-24:12
+MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6b633a3a9f77c0f35794bc07e5501738/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a1e41774daa6fc5c18f3f82449d55ca6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/96e6131b0301bda22ae95c8670778e1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5e6c4b3c3735bde35865fafb1006d2d8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9496235e3f68a2a95c24005534fcc6b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/cd495917db6d2f627e99a44ff726c3fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82ad5846dbdff8457f0a773a6b56988e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b71dc82156d9478347c6e72870acf6c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ccb5504b59a8dd18c6bff6f14cfe5ac9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4c8b98635ce63a86225efa984ca4e0da/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/52fc34751869cbf2ce0523ce5b5ae6e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2d3fdd4c68764151abd73a51a5d92c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d43c8f0d895fdf39166ed00241d4a203/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/47677ee8ad356a5de8432da0a482e305/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1eb33857ad004751925bb25486d3cf30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/290887e52c62a9b2df25ca809a201399/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5fd69d2dd5eae573183b9618a5a1e246/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9f2d858c719016b9bfff8c014c9b4053/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bf4bf0626846cc1f0a21dc2fa848aaef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/746b8cd0776d953988ca9d9b621ce582/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0964b46a4945fc63f8e05a8407265edf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dd815255f45bf6f7061063e552a893e1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/86b29ce507f09de36c605b4919fa7d3c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/068f19d7a35581dbb4b53f4ca1e176a4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0638e08d5f827d43defca5b1c1b243a1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/281fedf4f6afd8ea6d3bdf1ecc283df3/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:22:5-20
+MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:11:5-15:19
+MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.shawn.classattendance.attendance
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:16:19-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.shawn.classattendance.AddClasses
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:23:9-48
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:23:19-45
+activity#com.example.shawn.classattendance.ShowClasses
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:19-46
+activity#com.example.shawn.classattendance.TakeAttendance
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:19-49
+activity#com.example.shawn.classattendance.ClassDetails
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:19-47
+activity#com.example.shawn.classattendance.SaveStudents
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:27:19-47
+activity#com.example.shawn.classattendance.AddStudentGroup
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:9-53
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:19-50
+activity#com.example.shawn.classattendance.CalendarActivity
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:19-51
+activity#com.example.shawn.classattendance.RemoveStudents
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:9-52
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:19-49
+activity#com.example.shawn.classattendance.ShowSheet
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:9-47
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:19-44
+uses-sdk
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:20:5-44
+MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6b633a3a9f77c0f35794bc07e5501738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6b633a3a9f77c0f35794bc07e5501738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a1e41774daa6fc5c18f3f82449d55ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a1e41774daa6fc5c18f3f82449d55ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/96e6131b0301bda22ae95c8670778e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/96e6131b0301bda22ae95c8670778e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5e6c4b3c3735bde35865fafb1006d2d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5e6c4b3c3735bde35865fafb1006d2d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9496235e3f68a2a95c24005534fcc6b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9496235e3f68a2a95c24005534fcc6b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/cd495917db6d2f627e99a44ff726c3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/cd495917db6d2f627e99a44ff726c3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82ad5846dbdff8457f0a773a6b56988e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82ad5846dbdff8457f0a773a6b56988e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b71dc82156d9478347c6e72870acf6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b71dc82156d9478347c6e72870acf6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ccb5504b59a8dd18c6bff6f14cfe5ac9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ccb5504b59a8dd18c6bff6f14cfe5ac9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4c8b98635ce63a86225efa984ca4e0da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/4c8b98635ce63a86225efa984ca4e0da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/52fc34751869cbf2ce0523ce5b5ae6e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/52fc34751869cbf2ce0523ce5b5ae6e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2d3fdd4c68764151abd73a51a5d92c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a2d3fdd4c68764151abd73a51a5d92c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d43c8f0d895fdf39166ed00241d4a203/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d43c8f0d895fdf39166ed00241d4a203/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/47677ee8ad356a5de8432da0a482e305/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/47677ee8ad356a5de8432da0a482e305/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1eb33857ad004751925bb25486d3cf30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1eb33857ad004751925bb25486d3cf30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/290887e52c62a9b2df25ca809a201399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/290887e52c62a9b2df25ca809a201399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5fd69d2dd5eae573183b9618a5a1e246/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5fd69d2dd5eae573183b9618a5a1e246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9f2d858c719016b9bfff8c014c9b4053/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/9f2d858c719016b9bfff8c014c9b4053/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bf4bf0626846cc1f0a21dc2fa848aaef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bf4bf0626846cc1f0a21dc2fa848aaef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/746b8cd0776d953988ca9d9b621ce582/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/746b8cd0776d953988ca9d9b621ce582/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0964b46a4945fc63f8e05a8407265edf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0964b46a4945fc63f8e05a8407265edf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dd815255f45bf6f7061063e552a893e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dd815255f45bf6f7061063e552a893e1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/86b29ce507f09de36c605b4919fa7d3c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/86b29ce507f09de36c605b4919fa7d3c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/068f19d7a35581dbb4b53f4ca1e176a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/068f19d7a35581dbb4b53f4ca1e176a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0638e08d5f827d43defca5b1c1b243a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0638e08d5f827d43defca5b1c1b243a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/281fedf4f6afd8ea6d3bdf1ecc283df3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/281fedf4f6afd8ea6d3bdf1ecc283df3/AndroidManifest.xml:20:5-44
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
