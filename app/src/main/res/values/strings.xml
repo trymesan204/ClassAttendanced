@@ -1,15 +1,16 @@
 <resources>
 
     <string name="app_name">ClassAttendance</string>
+
     <string name="add_class">Add New Class </string>
     <string name="attendance">Class Attendance</string>
-    <string name="today_class">Today\'s Classes</string>
 
     <string name="class_name">Name of Class</string>
     <string name="class_year">Year</string>
-    <string name="class_day">Day of Class</string>
+    <string name="class_part">Part</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="number_lectures">Lectures Taken</string>
     <string name="number_students">Number of Students</string>
-    <string name="class_time">Time of Class</string>
     <string name="cancel">Cancel</string>
 
     <string name="save">Save</string>
@@ -17,13 +18,10 @@
     <string name="view_classes">View Classes</string>
     <string name="enter_names">Enter Names</string>
 
-
-    <string name="subject_name">Subject Name</string>
-    <string name="working_days">Working Days</string>
     <string name="take_attendance">Take Attendance</string>
     <string name="check_status">Check Status</string>
     <string name="attendance_history">View Attendance History</string>
-    <string name="number_lectures">Lectures Taken</string>
+
     <string name="submit">Submit</string>
     <string name="next">Next</string>
 
@@ -57,4 +55,38 @@
     <string name="edit_attendance">Edit Attendance</string>
     <string name="download_csv">Download CSV</string>
     <string name="all">All</string>
+
+    <string-array name="departments">
+        <item>BCT</item>
+        <item>BEX</item>
+        <item>BEL</item>
+        <item>BCE</item>
+        <item>BME</item>
+    </string-array>
+
+    <string-array name="section">
+        <item>AB</item>
+        <item>CD</item>
+        <item>EF</item>
+        <item>GH</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="part">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="batch">Batch(eg:073)</string>
+
+    <string name="user_name"> Enter User Name </string>
+    <string name="user_mail">Enter User Mail</string>
+
+    <string name="login">Login</string>
 </resources>

@@ -1,8 +1,11 @@
 package com.example.shawn.classattendance;
 
+import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.widget.RecyclerView;
@@ -15,6 +18,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -23,6 +27,8 @@ public class ClassAdapter extends
 
 
     boolean delete = false;
+    SQLiteDatabase db;
+    private Cursor cursor;
 
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -48,20 +54,52 @@ public class ClassAdapter extends
 
         @Override
         public void onClick(View v) {
-            //Log.d("clicked",String.valueOf(v.getId()));
-            //Log.d("position", String.valueOf(getAdapterPosition()));
+            final String className;
             switch (v.getId()) {
                 case R.id.class_name:
-                    String className = (String) nameTextView.getText();
+                    className = (String) nameTextView.getText();
                     Intent intent = new Intent(context, ClassDetails.class);
                     intent.putExtra("TABLE_NAME",className);
                     context.startActivity(intent);
                     break;
+
                 case R.id.delete_button:
+                    SQLiteOpenHelper helper = new Database(context);
+                    db=helper.getReadableDatabase();
                     position = getAdapterPosition();
-                    Log.d("position",String.valueOf(getAdapterPosition()));
-                    delete = true;
-                    Log.d("deleted",String.valueOf(delete));
+                    className= (String) nameTextView.getText();
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                    builder.setTitle("Delete Class"+className+"?");
+
+                    builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            db.delete("CLASSNAME","NAME=?",new String[] {className});
+                            db.execSQL("DROP TABLE IF EXISTS " + className);
+                            String sheet=className+"SHEET";
+                            String date=className+"DATE";
+                            db.execSQL("DROP TABLE IF EXISTS " + sheet);
+                            db.execSQL("DROP TABLE IF EXISTS " + date);
+                            db.delete("ATTENDANCEDATE", "Name=?",new String[] {className});
+                            dialog.dismiss();
+                            Intent intent1 = new Intent(context,attendance.class);
+                            intent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                            context.startActivity(intent1);
+
+                            Toast.makeText(context,className+" DELETED",Toast.LENGTH_SHORT).show();
+                        }
+                    });
+
+                    builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    builder.create().show();
+
                     break;
             }
         }
@@ -69,14 +107,9 @@ public class ClassAdapter extends
 
     public int position;
 
-    public boolean getDeleteStatus() {
-        return delete;
-    }
-
     public int getAdapterPosition() {
         return position;
     }
-
 
     //Pass in the contact array into the constructor
     private ArrayList<String> mClasses;
@@ -112,7 +145,7 @@ public class ClassAdapter extends
         TextView textView = viewHolder.nameTextView;
         textView.setText(contact);
 
-        ImageView imageView = viewHolder.imageView;
+    //    ImageView imageView = viewHolder.imageView;
 
     }
 

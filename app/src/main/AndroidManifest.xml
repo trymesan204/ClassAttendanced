@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +30,12 @@
         <activity android:name=".CalendarActivity" />
         <activity android:name=".RemoveStudents" />
         <activity android:name=".ShowSheet" />
+        <activity android:name=".SetIPAddress" />
+        <activity android:name=".SyncStudents" />
+        <activity android:name=".SelectSubjects" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".DisplaySheet" />
+        <activity android:name=".CheckPassword"></activity>
     </application>
 
 </manifest>

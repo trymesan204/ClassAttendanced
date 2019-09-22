@@ -64,7 +64,7 @@ public class ShowSheet extends AppCompatActivity {
 
             cursor= db.query(tableName,
                     new String[] {"_id","ROLL","NAME","PRESENT","ABSENT","LECTURES"},
-                    null, null, null, null, null);
+                    null, null, null, null, "ROLL ASC");
 
         }catch (SQLiteException e) {
             Toast.makeText(ShowSheet.this, "Database Unavailable", Toast.LENGTH_SHORT).show();

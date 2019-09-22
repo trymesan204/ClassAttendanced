@@ -16,4 +16,9 @@
         android:title="Upload CSV"
         app:showAsAction="withText" />
 
+    <item
+        android:id="@+id/upload_json"
+        android:title = "Send Data"
+        app:showAsAction="withText" />
+
 </menu>

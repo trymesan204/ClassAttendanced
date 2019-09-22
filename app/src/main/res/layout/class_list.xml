@@ -16,6 +16,7 @@
         android:textSize="18sp"
         android:textColor="@color/colorTextSimple" />
 
+
     <ImageView
         android:id="@+id/delete_button"
         android:layout_width="wrap_content"

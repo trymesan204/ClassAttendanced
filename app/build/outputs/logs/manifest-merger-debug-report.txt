@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:17:1-24:12
 MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6b633a3a9f77c0f35794bc07e5501738/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/f0a3e545b4da590438c1e4f71130cea3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a1e41774daa6fc5c18f3f82449d55ca6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/96e6131b0301bda22ae95c8670778e1d/AndroidManifest.xml:17:1-22:12
@@ -36,20 +37,20 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/shawn/.gradle/caches/
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/068f19d7a35581dbb4b53f4ca1e176a4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0638e08d5f827d43defca5b1c1b243a1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/281fedf4f6afd8ea6d3bdf1ecc283df3/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
-INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-34:12
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:2:11-69
@@ -65,14 +66,20 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:9:5-32:19
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:10:5-39:19
 MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d1885ddc882d20442a8da266dff09c63/AndroidManifest.xml:22:5-20
 MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:11:5-15:19
 MERGED from [com.applandeo:material-calendar-view:1.0.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/material-calendar-view-1.0.1.aar/a495d0f6e932e206a75506170dc2748c/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/f0a3e545b4da590438c1e4f71130cea3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/f0a3e545b4da590438c1e4f71130cea3/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ce86b3fd1b02975e665ef101f8ebb0f9/AndroidManifest.xml:22:5-23:19
@@ -80,67 +87,91 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shawn/.gradle
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f0b4e9955361c1039c50e3bb0e68c7fd/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.shawn.classattendance.attendance
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:16:19-45
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:17:19-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.example.shawn.classattendance.AddClasses
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:23:9-48
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:9-48
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:23:19-45
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:19-45
 activity#com.example.shawn.classattendance.ShowClasses
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:9-49
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:9-49
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:24:19-46
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:19-46
 activity#com.example.shawn.classattendance.TakeAttendance
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:9-52
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:25:19-49
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:19-49
 activity#com.example.shawn.classattendance.ClassDetails
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:9-50
-	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:26:19-47
-activity#com.example.shawn.classattendance.SaveStudents
 ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
 		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:27:19-47
+activity#com.example.shawn.classattendance.SaveStudents
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:19-47
 activity#com.example.shawn.classattendance.AddStudentGroup
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:9-53
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:9-53
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:28:19-50
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:19-50
 activity#com.example.shawn.classattendance.CalendarActivity
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:9-54
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:9-54
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:29:19-51
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:19-51
 activity#com.example.shawn.classattendance.RemoveStudents
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:9-52
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:9-52
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:30:19-49
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:19-49
 activity#com.example.shawn.classattendance.ShowSheet
-ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:9-47
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:32:9-47
 	android:name
-		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:31:19-44
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:32:19-44
+activity#com.example.shawn.classattendance.SetIPAddress
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:33:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:33:19-47
+activity#com.example.shawn.classattendance.SyncStudents
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:34:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:34:19-47
+activity#com.example.shawn.classattendance.SelectSubjects
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:35:9-52
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:35:19-49
+activity#com.example.shawn.classattendance.LoginPage
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:36:9-47
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:36:19-44
+activity#com.example.shawn.classattendance.DisplaySheet
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:37:9-50
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:37:19-47
+activity#com.example.shawn.classattendance.CheckPassword
+ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:38:9-60
+	android:name
+		ADDED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml:38:19-48
 uses-sdk
 INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/shawn/AndroidStudioProjects/ClassAttendance/app/src/main/AndroidManifest.xml
@@ -153,6 +184,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6b633a3a9f77c0f35794bc07e5501738/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shawn/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0b1d9b8d07e586ad54f3c87f65d566d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/f0a3e545b4da590438c1e4f71130cea3/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/shawn/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/f0a3e545b4da590438c1e4f71130cea3/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e3e8418f12368d2c36bfa34a569b3b2d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shawn/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a1e41774daa6fc5c18f3f82449d55ca6/AndroidManifest.xml:20:5-44

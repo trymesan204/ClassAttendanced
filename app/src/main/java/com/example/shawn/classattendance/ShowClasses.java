@@ -31,6 +31,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class ShowClasses extends AppCompatActivity {
@@ -67,14 +68,37 @@ public class ShowClasses extends AppCompatActivity {
             toast.show();
         }
 
+        if (className.size()==0){
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("No Classes Saved");
+
+            builder.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                    dialog.dismiss();
+                    Intent intent = new Intent(ShowClasses.this,attendance.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+
+                }
+            });
+
+            builder.create().show();
+        }
 
         final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         // Create adapter passing in the sample user data
         adapter = new ClassAdapter(getApplicationContext(),className);
 
+        /*adapter.notifyItemRemoved(adapter.getAdapterPosition());
+        adapter.notifyDataSetChanged();*/
+
         // Attach the adapter to the recyclerview to populate items
         recyclerView.setAdapter(adapter);
+
         // Set layout manager to position the items
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -84,15 +108,6 @@ public class ShowClasses extends AppCompatActivity {
 
     }
 
-    public void onClickImage(View view) {
-        boolean delStatus = adapter.getDeleteStatus();
-        Log.d("deleted",String.valueOf(delStatus));
-
-        if(delStatus) {
-            //db.delete("CLASSNAME","_id=?", new String[] {String.valueOf(adapter.getAdapterPosition()+1)} );
-        }
-
-    }
 
 
     @Override

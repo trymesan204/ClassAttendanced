@@ -55,6 +55,32 @@
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:text="@string/class_part"
+            android:textSize="16sp"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/class_part"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:gravity="left"
+            style="@style/TextLayout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:text="@string/subject_name"
             android:textSize="16sp"
             android:gravity="left"

@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -34,16 +35,17 @@ public class CalendarActivity extends AppCompatActivity {
     private CalendarView mCalendarView;
     LinearLayout mainLinear;
     final int notificationIcon = R.drawable.tick;
+    final int notificationIcon2 = R.drawable.tick2;
     List<EventDay> events;
     List<Event> eventMaps;
     TextView selectedDate;
-    DateFormat sdf;
+    DateFormat sdf, sdf2;
 
-    String tableName;
+    String className;
 
 
 
-    Cursor cursor;
+    Cursor cursor, cursor1;
 
     public class Event{
         public Event(EventDay date, String title) {
@@ -72,7 +74,7 @@ public class CalendarActivity extends AppCompatActivity {
         selectedDate = findViewById(R.id.sel_date);
 
         Intent intent = getIntent();
-        tableName = intent.getStringExtra("TABLE_NAME");
+        className = intent.getStringExtra("TABLE_NAME");
 
 
         //TEst events
@@ -80,13 +82,13 @@ public class CalendarActivity extends AppCompatActivity {
         eventMaps = new ArrayList<>();
         List<Calendar> calendarList = new ArrayList<>();
 
-        sdf = new SimpleDateFormat("EEEE MMMM d, yyyy", Locale.ENGLISH);
+        sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
 
         try {
             cursor = db.query("ATTENDANCEDATE",
                     new String[]{"_id","NAME","DATE","PRESENT","ABSENT"},
                     "NAME=?",
-                    new String[] {tableName},
+                    new String[] {className},
                     null, null, null);
 
         } catch (SQLiteException e) {
@@ -99,11 +101,37 @@ public class CalendarActivity extends AppCompatActivity {
             String date = cursor.getString(2);
             int present= cursor.getInt(3);
             int absent =cursor.getInt(4);
+            Log.d("showDate2",date);
+
+            try{
+
+                String tableName= className+"DATE";
+                cursor1 = db.query(tableName,
+                        new String[] {"DATE","SYNC"},
+                        "DATE=?",
+                        new String[] {date},
+                        null, null, null);
+            }catch (SQLiteException e){
+
+            }
+
             try {
                 Calendar calendar = Calendar.getInstance();
                 calendar.setTime(sdf.parse(date));
                 calendarList.add(calendar);
-                EventDay eventDay = new EventDay(calendar, notificationIcon);
+
+                EventDay eventDay;
+
+                int sync=0;
+                if (cursor1.moveToFirst())
+                    sync = cursor1.getInt(1);
+
+                if (sync==1){
+                    eventDay = new EventDay(calendar, notificationIcon);
+                }else {
+                    eventDay = new EventDay(calendar, R.drawable.tick2);
+                }
+
                 events.add(eventDay);
                 eventMaps.add(new Event(eventDay, "TotalPresent:  "+ present + "\nTotalAbsent: "+absent));
             } catch (ParseException e) {
@@ -155,7 +183,7 @@ public class CalendarActivity extends AppCompatActivity {
     }
 
     private static boolean areEqualDays(Calendar c1, Calendar c2) {
-        SimpleDateFormat s = new SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH);
+        SimpleDateFormat s = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
         return (s.format(c1.getTime()).equals(s.format(c2.getTime())));
     }
 }

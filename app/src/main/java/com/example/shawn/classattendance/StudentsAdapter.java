@@ -65,20 +65,10 @@ public class StudentsAdapter extends RecyclerView.Adapter<StudentsAdapter.ViewHo
     public void onBindViewHolder(@NonNull StudentsAdapter.ViewHolder viewHolder, int i) {
         String roll = studentList.get(i).getRoll();
         String name = studentList.get(i).getName();
-//        Student student;
-//        student.setPresent(true);
+
         TextView textView = viewHolder.textView;
-        textView.setText(roll+ ") "+name);
+        textView.setText(roll+ ". "+name);
         viewHolder.checkBox.setChecked(studentList.get(i).isPresent());
-//        viewHolder.checkBox.setChecked(false);
-        //CheckBox checkBox = viewHolder.checkBox;
-        //checkBox.isEnabled();
-//        if(checkBox.isChecked())
-//            //status.add("yes");
-//            studentList.get(i).setPresent(true);
-//        else
-//            studentList.get(i).setPresent(false);
-//            //status.add("no");
 
     }
 

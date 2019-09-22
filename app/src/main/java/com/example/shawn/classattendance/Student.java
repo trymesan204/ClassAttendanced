@@ -31,7 +31,7 @@ public class Student {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -39,7 +39,7 @@ public class Student {
     }
 
     public String getRoll() {
-        return roll;
+        return this.roll;
     }
 
     public void setRoll(String roll) {

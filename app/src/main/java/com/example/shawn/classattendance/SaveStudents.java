@@ -68,6 +68,8 @@ public class SaveStudents extends AppCompatActivity {
             intent.putExtra("TABLE_NAME",tableName);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
+
+            Toast.makeText(getApplicationContext(),"Students Added",Toast.LENGTH_SHORT).show();
         }
     }
 

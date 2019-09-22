@@ -9,7 +9,9 @@ import android.util.Log;
 class Database extends SQLiteOpenHelper {
 
     //declare database name and version
-    public static final String DB_NAME= "Attendance";
+    //Attendance
+    //Attendanced
+    public static final String DB_NAME= "Attendances";
     public static final int DB_VERSION= 1;
 
     //create database
@@ -20,22 +22,15 @@ class Database extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        //create table for storing routine of classes
-        db.execSQL("CREATE TABLE TIMETABLE (_id INTEGER PRIMARY KEY AUTOINCREMENT,"+
-                "NAME TEXT,"+
-                "DAY TEXT,"+
-                "TIME TEXT )");
-        Log.d("created1","created1");
 
         //create table for storing names of classes
         db.execSQL( "CREATE TABLE CLASSNAME (_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                " NAME TEXT," +
-                " YEAR TEXT," +
-                " DAY TEXT,"+
-                " SUBJECT TEXT," +
-                " TIME TEXT,"+
-                " NUMBER INTEGER )" );
-        Log.d("Created","Created");
+                "NAME TEXT," +
+                "SUBJECT TEXT,"+
+                "SUBID TEXT,"+
+                "YEAR TEXT,"+
+                "PART TEXT)" );
+
 
         //table for storing name of absents
         db.execSQL("CREATE TABLE ATTENDANCEDATE (_id INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -43,6 +38,11 @@ class Database extends SQLiteOpenHelper {
                 "DATE TEXT," +
                 "PRESENT INTEGER," +
                 "ABSENT INTEGER)");
+
+        //table for user
+        db.execSQL("CREATE TABLE USER (_id INTEGER PRIMARY KEY AUTOINCREMENT,"+
+                "NAME TEXT,"+
+                "MAIL TEXT)");
     }
 
     @Override
